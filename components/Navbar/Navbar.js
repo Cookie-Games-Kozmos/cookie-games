@@ -21,15 +21,20 @@ const Navbar = () => {
 
         {/* desktop menu */}
         <div className=" text-[#FF7062] ">
-          <ul className=" pr-5 md:pr-10 grid grid-cols-2 gap-4 hidden md:flex">
+          <ul className=" pr-5 md:pr-10 grid grid-cols-2 gap-4 pt-1 hidden md:flex">
             <Link href="/">
               <li className=" text-lg uppercase text-white hover:rounded-3xl p-1 hover:p-1 hover:bg-[#FF7062] ">
-                Home
+                Ana sayfa
               </li>
             </Link>
             <Link href="/#about">
               <li className=" text-lg uppercase text-white hover:rounded-3xl p-1 hover:p-1 hover:bg-[#FF7062] ">
-                About
+                Hakkımızda
+              </li>
+            </Link>
+            <Link href="/#about">
+              <li className=" text-lg uppercase text-white hover:rounded-3xl p-1 hover:p-1 hover:bg-[#FF7062] ">
+                Ekip üyelerimiz
               </li>
             </Link>
           </ul>
