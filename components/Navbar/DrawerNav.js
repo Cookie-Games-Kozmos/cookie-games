@@ -11,14 +11,14 @@ function DrawerNav(props) {
   return (
     <div
       className={
-        nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/50" : ""
+        nav ? "md:hidden fixed left-0 top-0 w-full h-full bg-black/50" : ""
       }
     >
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#4A4C54] p-10 ease-in duration-500"
-            : "fixed left-[-100%] top-0 h-screen w-[75%] p-10 ease-in duration-500"
+            ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-full bg-[#4A4C54] p-10 ease-in duration-500"
+            : "fixed left-[-100%] top-0 h-full w-[75%] p-10 ease-in duration-500"
         }
       >
         <div>
@@ -38,7 +38,7 @@ function DrawerNav(props) {
               Small Team But Strong.
             </a>
           </div>
-          <div className=" h-screen">
+          <div className="">
             <ul className="py-5 flex-col">
               <Link href="">
                 <li
