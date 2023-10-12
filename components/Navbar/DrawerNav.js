@@ -35,8 +35,7 @@ function DrawerNav(props) {
           </div>
           <div className="border-b pb-1 border-gray-300 my-4">
             <a className="w-[85%] md:[90%] text-bold text-[#FF7062] py-4">
-              Small Team, <span className=" text-[#E1BD9C] "> Sweet </span>{" "}
-              Success.
+              Small Team But Strong.
             </a>
           </div>
           <div className="">
