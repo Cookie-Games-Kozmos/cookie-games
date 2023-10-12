@@ -18,9 +18,11 @@ const Main = () => {
           </a>
 
           <br />
+          <br />
 
           <a className=" text-gray-300 md:text-2xl ">
-            hayalerinden otesi bisi yazaadim.
+            Small Team, <span className=" text-[#E1BD9C] "> Sweet </span>{" "}
+            Success.
           </a>
 
           <div className=" py-10">
