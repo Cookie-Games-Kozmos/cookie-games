@@ -5,13 +5,28 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  const checkScrollTop = () => {
+    setShadow(window.scrollY >= 90);
+  };
+
+  // Preventing memory leak from window
+  useEffect(() => {
+    window.addEventListener("scroll", checkScrollTop);
+    return () => window.removeEventListener("scroll", checkScrollTop);
+  }, []);
+
   return (
-    <div className=" fixed w-full bg-[#242529] h-20 z-[100] ">
+    <div
+      className={`${
+        shadow ? "shadow-xl shadow-gray-700 " : ""
+      } fixed w-full bg-[#242529] h-20 z-[100] duration-200 `}
+    >
       <div className="flex justify-between md:pl-20 pl-10 items-center w-full h-full px-2 2xl:px-16">
         <div className=" text-[#FF7062] font-bold text-2xl ">
           <a className=" cursor-pointer" href="/">
