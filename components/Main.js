@@ -12,7 +12,7 @@ const Main = () => {
   return (
     <div className="w-full md:h-screen p-2 px-10 flex items-center pt-40 pb-16">
       <div className="max-w-[1240px] items-center m-auto md:grid grid-cols-3 gap-8">
-        <div className="col-span-2 text-center ">
+        <div className="col-span-2 text-center px-8 md:items-start ">
           <a className="py-2 uppercase text-gray-300 text-3xl md:text-6xl text-mono">
             <span className=" text-[#FF7062] ">Cookie</span> gamese hoşgeldiniz
           </a>
