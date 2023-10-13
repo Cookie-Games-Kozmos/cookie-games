@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar/Navbar";
 import Main from "@/components/Main";
 import About from "@/components/About";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <Main />
       <About />
+      <Analytics />
     </div>
   );
 }
