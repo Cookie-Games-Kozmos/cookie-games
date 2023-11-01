@@ -58,7 +58,7 @@ const People = () => {
             <h1 className=" font-bold text-center ">ِAbdurrahman Şahin</h1>
           </div>
           <h1 className=" pt-5 text-center">
-            UI / UX Disighner <br /> Social Media Maneger
+            Social Media Manager <br /> UI / UX Designer
           </h1>
         </div>
 
@@ -85,7 +85,7 @@ const People = () => {
             />
             <h1 className=" font-bold text-center ">Ozan Tutcan</h1>
           </div>
-          <h1 className=" pt-5 text-center">çizerimiz</h1>
+          <h1 className=" pt-5 text-center">Grafiker</h1>
         </div>
 
         <div className=" h-40 w-60 rounded-2xl bg-gray-700 ">
@@ -98,7 +98,7 @@ const People = () => {
             />
             <h1 className=" font-bold text-center ">Emir Kutlu </h1>
           </div>
-          <h1 className=" pt-5 text-center">Dialog yazarı</h1>
+          <h1 className=" pt-5 text-center">3D Tasarım</h1>
         </div>
 
         <div className=" h-40 w-60 rounded-2xl bg-gray-700 ">
@@ -111,7 +111,7 @@ const People = () => {
             />
             <h1 className=" font-bold text-center ">Faruk Eymech</h1>
           </div>
-          <h1 className=" pt-5 text-center">Junior Developer</h1>
+          <h1 className=" pt-5 text-center">Software Developer</h1>
         </div>
       </div>
     </div>
