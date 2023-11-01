@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formspree/core": "^3.0.1",
+    "@formspree/react": "^2.5.1",
     "@vercel/analytics": "^1.1.1",
+    "mdb-react-ui-kit": "^6.3.0",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
