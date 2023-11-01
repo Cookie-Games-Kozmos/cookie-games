@@ -57,7 +57,7 @@ const Contact = () => {
                     </Link>
                   </div>
                   <div className="rounded-3xl shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <Link href="https://github.com/khaledHN">
+                    <Link href="https://github.com/Cookie-Games-Kozmos">
                       <FaGithub className=" scale-125 text-gray-900 " />
                     </Link>
                   </div>
