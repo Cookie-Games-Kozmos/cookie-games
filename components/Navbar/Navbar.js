@@ -36,19 +36,19 @@ const Navbar = () => {
 
         {/* desktop menu */}
         <div className=" text-[#FF7062] ">
-          <ul className=" pr-5 md:pr-10 grid grid-cols-2 gap-4 pt-1 hidden md:flex">
+          <ul className=" pr-5 md:pr-10 grid grid-cols-2 gap-8 pt-1 hidden md:flex">
             <Link href="/">
-              <li className=" text-lg uppercase text-white hover:rounded-lg py-1 px-2 hover:py-1 hover:px-2 hover:bg-[#FF7062] ">
+              <li className=" text-lg uppercase text-white rounded-lg hover:text-[#FF7062] duration-200 ">
                 Ana sayfa
               </li>
             </Link>
             <Link href="/#about">
-              <li className=" text-lg uppercase text-white hover:rounded-lg py-1 px-2 hover:py-1 hover:px-2 hover:bg-[#FF7062] ">
+              <li className=" text-lg uppercase text-white rounded-lg hover:text-[#FF7062] duration-200 ">
                 Hakkımızda
               </li>
             </Link>
-            <Link href="/#about">
-              <li className=" text-lg uppercase text-white hover:rounded-lg py-1 px-2 hover:py-1 hover:px-2 hover:bg-[#FF7062] ">
+            <Link href="/#People">
+              <li className=" text-lg uppercase text-white rounded-lg hover:text-[#FF7062] duration-200 ">
                 Ekip üyelerimiz
               </li>
             </Link>
@@ -56,6 +56,14 @@ const Navbar = () => {
           <div onClick={handleNav} className=" pr-5 md:hidden">
             <AiOutlineMenu size={25} />
           </div>
+        </div>
+
+        <div className=" px-5 hidden md:flex ">
+          <Link href="/#contact">
+            <button className=" p-2 border hover:border-red-500/90 rounded-lg hover:scale-105 duration-300 text-white ">
+              <h1>Bize Ulaş</h1>
+            </button>
+          </Link>
         </div>
       </div>
 
