@@ -14,25 +14,21 @@ const About = () => {
             Hakkımızda
           </a>
           <p className="py-2 text-gray-600">
-            I have always had a knack for technology and working with computers.
-            In 2019 I started working with c# to make small games on Unity, then
-            I started working with HTML & CSS to make some minor edits on a
-            small website that I was operating. What thought was just a few
-            small edits turned into love for programming.
-          </p>
-          <p className="py-2 text-gray-600">
-            Fascinated with how intricate programming can be I was quickly drawn
-            to learn more. I started learning javascript and was even more
-            enthused with making websites interactive. I now I started
-            freelancing for e-commerce companies on shopify platform. I am now
-            spending my time building projects with REACT JS, NEXT JS, and
-            learning new technologies.
-          </p>
-          <p className="py-2 text-gray-600 underline curser-pointer">
-            <Link href="/#projects">Check out some of my latest projects.</Link>
+            Selam! Biz Cookie Games ekibi, çekirdek bir ekip olmamıza rağmen var
+            olan azmimiz ile daha çok çalışıyor rakiplerimizle aramızda olan
+            farkı kapatıyoruz. Ekip içerisindeki en önemli faktör olan yönetimi
+            arkadaşlığın vermiş olduğu samimiyet ve disiplinle harmanlıyoruz, bu
+            sayede daha sağlam bir otoriteye sahip oluyoruz. Amaçlarımız
+            arasında hali hazırda yapmış olduğumuz "İlk" oyunumuz olan
+            "Project:Escape" i sizlere sunmak istiyoruz. Bu sayede yazılım,
+            hikaye ve tasarımlar hakkındaki eksiklerimizi tamamlayacak sıradaki
+            projeler için daha hazırlıklı olacağız. Biz Cookie Games ekibi
+            zamanınızı ayırıp bu metni okuduğunuz için teşekkür ediyor iyi,
+            günler diliyoruz. -Oyunlarımızı oynayarak yapacağınız yapıcı
+            eleştiriler bizim için çok önemli...-.
           </p>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-black rounded-xl flex item-center justify-center hover:scale-105 ease-in duration-300">
+        <div className="w-full h-auto m-auto shadow-xl shadow-black rounded-xl flex item-center justify-center hover:scale-105 ease-in duration-300 transition-all filter grayscale hover:grayscale-0">
           <Image
             className="rounded-xl"
             src="/assets/cookieweb.png"
